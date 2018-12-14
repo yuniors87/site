@@ -1,17 +1,39 @@
 {
-  "name": "Site",
-  "version": "1.0.0",
-  "description": "",
+  "name": "site",
+  "version": "0.0.1",
+  "description": "My personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuniors87/site.git"
+  },
+  "author": "yuniors87",
   "license": "ISC",
-  "devDependencies": {
-    "cssnano": "^4.1.7",
-    "sass": "^1.15.2"
+  "bugs": {
+    "url": "https://github.com/yuniors87/site/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/yuniors87/site#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3"
+  }
 }
